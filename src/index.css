@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* OUR CUSTOM FRAMEWORK CSS */
+.carhub-container{
+    @apply mx-2 md:mx-auto md:w-11/12
+}
+
+.default,
+.active{
+    @apply border mx-1 rounded-md mt-1
+}
+.default{
+    @apply border-blue-300
+}
+.carhub-outlet{
+    min-height: calc(100vh - 434px);
+}
+.article-body{
+    @apply bg-blue-200 px-4 py-6 my-8 rounded-md
+}
+.article-title{
+    @apply text-2xl font-semibold my-4 md:w-3/4
+}
+.article-text{
+    @apply text-lg text-slate-700 text-justify
+}
